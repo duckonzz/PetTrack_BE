@@ -33,7 +33,6 @@ namespace PetTrack.Services.Services
 
             var invalidStatuses = new[]
             {
-        BookingStatus.Pending.ToString(),
         BookingStatus.Cancelled.ToString(),
         BookingStatus.Refunded.ToString()
     };
